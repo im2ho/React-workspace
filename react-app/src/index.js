@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './js/App'; //import 변수 from 'js파일명';
+import App2 from './js/App2'; //import 변수 from 'js파일명';
 import ExampleCallback from './js/ExampleCallback';
 import PracticeTwo from './js/PracticeTwo';
 import reportWebVitals from './reportWebVitals';
@@ -9,9 +9,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*<App /> React에서의 주석 표기 */}
+    <App2 />
     {/*<Counter /> {/*import에서 설정한 변수명*/}
-    <PracticeTwo />
   </React.StrictMode>
 );
 
