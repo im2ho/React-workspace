@@ -16,9 +16,6 @@ const App = () => {
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
                             <Link to="/about">소개</Link>
                         </li>
                     </ul>
