@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import JSXExample from './js/JSXExample';
-import TagExam from './js/TagExample';
+import BootEx1 from './BootEx-1';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TagExam />
+    <BootEx1 />
   </React.StrictMode>
 );
 
