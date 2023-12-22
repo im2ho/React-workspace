@@ -1,5 +1,5 @@
 import React from "react";
-
+//MovieList.js와 이어짐
 const MovieCard = ({movie}) => (
     <div>
         {movie.poster && <img src={movie.poster} />}

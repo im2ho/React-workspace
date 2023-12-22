@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Joke from './js/JokeExample';
-import UserList from './js/UserExample';
-import PostComment from './js/PostComment';
+import MovieListPaging from './js/MovieListPaging';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PostComment />
+    <MovieListPaging />
   </React.StrictMode>
 );
 
