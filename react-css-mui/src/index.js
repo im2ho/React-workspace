@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import JSXExample from './js/JSXExample';
-import TagExam from './js/TagExample';
+//import App from './App';
+import ModalComponent from './js/ModalComponent';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TagExam />
+    <ModalComponent />
   </React.StrictMode>
 );
 
