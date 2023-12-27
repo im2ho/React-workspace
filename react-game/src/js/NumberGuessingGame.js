@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NumberGuessingGame = () => {
 
@@ -76,7 +76,7 @@ const NumberGuessingGame = () => {
         }
         //숫자를 맞출 때마다 input값이 지워질 수 있도록 초기화 설정
         setUserGuess('');
-    };
+    }; //inputSubmit()
 
     return(
         <div className="m-5 p-3 card">
