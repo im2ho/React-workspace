@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import MovieListPaging from './js/MovieListPaging';
+import MovieListCarousel from './js/MovieListCarousel';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MovieListPaging />
+    <MovieListCarousel />
   </React.StrictMode>
 );
 

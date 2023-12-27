@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from "react";
 import MovieCard from "./MovieCard";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Carousel} from 'react-bootstrap/Carousel';
+import {Carousel} from 'react-bootstrap';
 import axios from "axios";
 
 const MovieList = () => {
